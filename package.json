@@ -1,9 +1,9 @@
 {
   "icon": "icon.jpeg",
   "name": "copy-paste-developer",
-  "displayName": "copy paste developer",
+  "displayName": "Copy Paste Developer",
   "description": "a stress release extension",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "publisher": "cooldev",
   "engines": {
     "vscode": "^1.103.0"
@@ -33,12 +33,12 @@
       "properties": {
         "copyPasteDeveloper.message": {
           "type": "string",
-          "default": "😅 Cool down bro, use less ChatGPT… hehehe",
+          "default": "😅 Thak gaye ho copy–paste karke… ye lo paani pee lo 🥤 (Tired of copy–pasting? Here, have some water 🥤)",
           "description": "Message to show when a large paste is detected."
         },
         "copyPasteDeveloper.minWords": {
           "type": "number",
-          "default": 50,
+          "default": 100,
           "minimum": 1,
           "description": "Minimum number of words inserted to treat as a paste."
         },

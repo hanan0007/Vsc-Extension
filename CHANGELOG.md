@@ -1,9 +1,24 @@
-# Change Log
+# Changelog
 
-All notable changes to the "copy-paste-developer" extension will be documented in this file.
+All notable changes to the **Copy Paste Developer** extension will be documented in this file.  
 
-Check [Keep a Changelog](http://keepachangelog.com/) for recommendations on how to structure this file.
+This project follows [Keep a Changelog](https://keepachangelog.com/) and [Semantic Versioning](https://semver.org/).
 
-## [Unreleased]
+---
 
-- Initial release
+## [0.0.2] - 2025-09-07
+### Changed
+- Updated the default message to a bilingual fun text:  
+  **"😅 Thak gaye ho copy–paste karke… ye lo paani pee lo 🥤 (Tired of copy–pasting? Here, have some water 🥤)"**
+- Changed display name to **Copy Paste Developer** (capitalized).
+
+---
+
+## [0.0.1] - 2025-09-07
+### Added
+- Initial release of **Copy Paste Developer**.  
+- Detects when a user pastes more than 50 words across multiple lines.  
+- Shows a playful stress-relief popup message:  
+  **"😅 Cool down bro, use less ChatGPT… hehehe"**
+
+---

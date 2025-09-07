@@ -16,7 +16,8 @@ export function activate(context: vscode.ExtensionContext) {
 		if (!active || active.uri.toString() !== e.document.uri.toString()) return;
 
 		// --- Heuristic: treat as paste when >= minWords AND >= minLines were inserted ---
-		const minWords = cfg.get<number>('minWords') ?? 50;  // default: 50 words
+		const minWords = cfg.get<number>('minWords') ?? 100;  // default: 100 words
+		// default: 50 words
 		const minLines = cfg.get<number>('minLines') ?? 2;   // default: 2 lines
 
 		let totalWords = 0;
@@ -43,7 +44,7 @@ export function activate(context: vscode.ExtensionContext) {
 		lastShown = now;
 
 		const message =
-			cfg.get<string>('message') ?? '😅 Cool down bro, use less ChatGPT… hehehe';
+			cfg.get<string>('message') ?? '😅 Thak gaye ho copy–paste karke… ye lo paani pee lo 🥤 (Tired of copy–pasting? Here, have some water 🥤)';
 
 		// Show as notification (simple & visible)
 		vscode.window.showInformationMessage(message);
